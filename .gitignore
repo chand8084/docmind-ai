@@ -1,0 +1,29 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+venv312/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Uploaded documents and vector database
+backend/storage/uploads/
+backend/storage/chroma_db/
+
+# Node dependencies
+frontend/node_modules/
+frontend/dist/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
